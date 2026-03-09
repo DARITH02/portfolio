@@ -2,12 +2,17 @@
  * Footer — brand, social icons, nav links, copyright
  */
 import React from "react";
-import { FaGithub, FaLinkedin, FaFacebook, FaArrowUp } from "react-icons/fa";
+import { FaGithub, FaLinkedin, FaFacebook, FaArrowUp, FaTelegram } from "react-icons/fa";
 
 const SOCIALS = [
-  { Icon: FaGithub,   href: "https://github.com/venchandarith",          label: "GitHub"   },
-  { Icon: FaLinkedin, href: "https://www.linkedin.com/in/venchandarith", label: "LinkedIn" },
-  { Icon: FaFacebook, href: "https://www.facebook.com/venchandarith",    label: "Facebook" },
+   { Icon: FaGithub, href: "https://github.com/DARITH02", label: "GitHub" },
+   { Icon: FaTelegram, href: "https://t.me/darith_003", label: "Telegram" },
+ 
+   {
+     Icon: FaFacebook,
+     href: "https://www.facebook.com/chan.darith.696422/",
+     label: "Facebook",
+   },
 ];
 
 const NAV = ["Home","About","Skills","Projects","Education","Contact"];

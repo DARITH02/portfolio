@@ -7,6 +7,7 @@ import {
   FaEnvelope, FaMapMarkerAlt, FaPaperPlane,
   FaGithub, FaLinkedin, FaFacebook,
   FaTelegram,
+  FaPhone,
 } from "react-icons/fa";
 
 const SOCIALS = [
@@ -78,8 +79,19 @@ const Contact = () => {
                 </div>
                 <div>
                   <p className="text-xs font-bold uppercase tracking-widest text-gray-500 mb-1">Email</p>
-                  <a href="mailto:venchandarith@gmail.com" className="text-white hover:text-primary-400 transition-colors font-medium">
-                    venchandarith@gmail.com
+                  <a href="mailto:chandarith002@gmail.com" className="text-white hover:text-primary-400 transition-colors font-medium">
+                    chandarith002@gmail.com
+                  </a>
+                </div>
+              </div>
+               <div className="flex items-center gap-5 mb-7 group">
+                <div className="w-12 h-12 rounded-2xl glass flex items-center justify-center text-primary-400 text-xl group-hover:gradient-bg group-hover:text-white transition-all duration-400 flex-shrink-0">
+                  <FaPhone />
+                </div>
+                <div>
+                  <p className="text-xs font-bold uppercase tracking-widest text-gray-500 mb-1">Phone</p>
+                  <a href="mailto:chandarith002@gmail.com" className="text-white hover:text-primary-400 transition-colors font-medium">
+                   +855 76 528 1518
                   </a>
                 </div>
               </div>
