@@ -4,7 +4,7 @@ const projects = [
     title: "School Management System",
     description:
       "A comprehensive platform featuring student management, class scheduling, and teacher management capabilities.",
-    tags: ["React", "Firebase", "MongoDB", "REST API"],
+    tags: ["React", "ASP.NET", "SQL Server", "REST API"],
     github: "https://github.com/DARITH02",
     demo: "#",
     image:
@@ -15,7 +15,7 @@ const projects = [
     title: "E-Commerce Web Application",
     description:
       "A modern e-commerce platform that allows users to browse products, add items to cart, and complete purchases online. Includes authentication and product management features.",
-    tags: ["React", "MongoDB", "API", "Firebase Auth"],
+    tags: ["React", "Laravel", "MySQL", "REST API"],
     github: "https://github.com/DARITH02",
     demo: "#",
     image:
@@ -27,7 +27,7 @@ const projects = [
     title: "Online Courses Learning Platform",
     description:
       "An online learning platform where users can explore courses, enroll in lessons, and track their progress. Includes secure authentication and course catalog management.",
-    tags: ["React", "Firebase", "MongoDB", "REST API"],
+    tags: ["React", "Laravel", "MySQL", "REST API"],
     github: "https://github.com/DARITH02",
     demo: "#",
     image:
