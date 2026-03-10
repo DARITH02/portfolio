@@ -10,17 +10,29 @@ const projects = [
     image:
       "https://images.unsplash.com/photo-1503676260728-1c00da094a0b?w=700&h=420&fit=crop&auto=format",
   },
-  {
+   {
     id: 2,
-    title: "E-Commerce Web Project and Online Courses",
+    title: "E-Commerce Web Application",
     description:
-      "An online learning platform with a course catalog, secure payment integration, and seamless user authentication.",
-    tags: ["React", "Firebase", "MongoDB", "API integration"],
+      "A modern e-commerce platform that allows users to browse products, add items to cart, and complete purchases online. Includes authentication and product management features.",
+    tags: ["React", "MongoDB", "API", "Firebase Auth"],
+    github: "https://github.com/DARITH02",
+    demo: "#",
+    image:
+      "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=700&h=420&fit=crop&auto=format",
+  },
+
+  {
+    id: 3,
+    title: "Online Courses Learning Platform",
+    description:
+      "An online learning platform where users can explore courses, enroll in lessons, and track their progress. Includes secure authentication and course catalog management.",
+    tags: ["React", "Firebase", "MongoDB", "REST API"],
     github: "https://github.com/DARITH02",
     demo: "#",
     image:
       "https://images.unsplash.com/photo-1516321497487-e288fb19713f?w=700&h=420&fit=crop&auto=format",
-  },
+  }
   {
     id: 3,
     title: "Real-time Chat App",
