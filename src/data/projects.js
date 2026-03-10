@@ -32,9 +32,9 @@ const projects = [
     demo: "#",
     image:
       "https://images.unsplash.com/photo-1516321497487-e288fb19713f?w=700&h=420&fit=crop&auto=format",
-  }
+  },
   {
-    id: 3,
+    id: 4,
     title: "Real-time Chat App",
     description:
       "A fast and responsive messaging application featuring real-time messaging and live updates powered by websockets.",
@@ -45,7 +45,7 @@ const projects = [
       "https://images.unsplash.com/photo-1611606063065-ee7946f0787a?w=700&h=420&fit=crop&auto=format",
   },
   {
-    id: 4,
+    id: 5,
     title: "Multi Image Upload System",
     description:
       "An advanced file handling system with drag & drop functionality, instant image previews, progress bars, and image resizing.",
@@ -56,7 +56,7 @@ const projects = [
       "https://images.unsplash.com/photo-1618477388954-7852f32655ec?w=700&h=420&fit=crop&auto=format",
   },
   {
-    id: 5,
+    id: 6,
     title: "Hotel Management System",
     description:
       "A comprehensive hotel platform handling room bookings, customer management, invoice generation, and an admin dashboard.",
