@@ -65,6 +65,7 @@ const projects = [
     demo: "#",
     image:
       "https://images.unsplash.com/photo-1566073771259-6a8506099945?w=700&h=420&fit=crop&auto=format",
+    link:"https://kea-thavy.42web.io/admin/contact"
   },
 ];
 
