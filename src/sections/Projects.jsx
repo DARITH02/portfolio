@@ -94,7 +94,7 @@ const Projects = () => {
                       Source Code
                     </a>
                     <a
-                      href={project.demo}
+                      href={project.link}
                       target="_blank"
                       rel="noopener noreferrer"
                       className="flex items-center gap-2 text-sm font-bold text-primary-400 hover:text-primary-300 transition-colors group/link"
