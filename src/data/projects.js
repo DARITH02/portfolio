@@ -73,7 +73,7 @@ const projects = [
   },
   {
     id: 7,
-    title: "Rura Hotel Management System",
+    title: "Aura Hotel Management System",
     description:
       "A full-stack hotel booking system where customers can browse rooms and make reservations while administrators manage bookings, rooms, and payments through a dashboard with Telegram notifications.",
     tags: ["PHP", "MySQL", "Bootstrap", "JavaScript", "Telegram Bot"],
