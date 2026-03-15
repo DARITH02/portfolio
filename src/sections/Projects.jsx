@@ -102,9 +102,23 @@ const Projects = () => {
                       <span className="w-12 h-12 rounded-full glass border border-primary-500/20 flex items-center justify-center group-hover/link:bg-primary-500/10 transition-all group-hover/link:scale-110">
                         <FaExternalLinkAlt size={16} />
                       </span>
-                      Live Demo
+                      Live Demo Front
                     </a>
+                    {project.admin != "" && 
+                    <a
+                      href={project.admin}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="flex items-center gap-2 text-sm font-bold text-primary-400 hover:text-primary-300 transition-colors group/link"
+                    >
+                      <span className="w-12 h-12 rounded-full glass border border-primary-500/20 flex items-center justify-center group-hover/link:bg-primary-500/10 transition-all group-hover/link:scale-110">
+                        <FaExternalLinkAlt size={16} />
+                      </span>
+                      Live Demo Admin
+                    </a>
+                    }
                   </div>
+                  
                 </div>
               </motion.article>
             );
