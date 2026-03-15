@@ -67,7 +67,7 @@ const projects = [
       "A comprehensive hotel platform handling room bookings, customer management, invoice generation, and an admin dashboard.",
     tags: ["PHP", "MySQL", "Bootstrap", "JavaScript"],
     github: "https://github.com/DARITH02",
-    demo: "#",
+    demo: "https://kea-thavy.42web.io",
     image:
       "https://images.unsplash.com/photo-1566073771259-6a8506099945?w=700&h=420&fit=crop&auto=format",
     link:"https://kea-thavy.42web.io"
