@@ -81,7 +81,7 @@ const projects = [
     demo: "http://rura-hotel.gt.tc",
     admin: "http://rura-hotel.gt.tc/public/dashboard",
     image:
-      "https://images.unsplash.com/photo-1566073771259-6a8506099945?w=700&h=420&fit=crop&auto=format",
+      "https://i.pinimg.com/1200x/c0/38/af/c038af52d38d20e9422ffaa8a4981c42.jpg",
   },
 ];
 
