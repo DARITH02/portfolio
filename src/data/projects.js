@@ -9,6 +9,7 @@ const projects = [
     demo: "#",
     image:
       "https://images.unsplash.com/photo-1503676260728-1c00da094a0b?w=700&h=420&fit=crop&auto=format",
+     link:""
   },
    {
     id: 2,
@@ -20,6 +21,7 @@ const projects = [
     demo: "#",
     image:
       "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=700&h=420&fit=crop&auto=format",
+      link:""
   },
 
   {
@@ -32,6 +34,7 @@ const projects = [
     demo: "#",
     image:
       "https://images.unsplash.com/photo-1516321497487-e288fb19713f?w=700&h=420&fit=crop&auto=format",
+     link:""
   },
   {
     id: 4,
@@ -43,6 +46,7 @@ const projects = [
     demo: "#",
     image:
       "https://images.unsplash.com/photo-1611606063065-ee7946f0787a?w=700&h=420&fit=crop&auto=format",
+     link:""
   },
   {
     id: 5,
@@ -54,6 +58,7 @@ const projects = [
     demo: "#",
     image:
       "https://images.unsplash.com/photo-1618477388954-7852f32655ec?w=700&h=420&fit=crop&auto=format",
+     link:""
   },
   {
     id: 6,
