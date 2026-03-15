@@ -67,7 +67,7 @@ const projects = [
     tags: ["PHP", "MySQL", "Bootstrap", "JavaScript"],
     github: "https://github.com/DARITH02",
     demo: "https://kea-thavy.42web.io",
-    admin: "",
+    admin: "https://kea-thavy.42web.io/dashboard",
     image:
       "https://images.unsplash.com/photo-1566073771259-6a8506099945?w=700&h=420&fit=crop&auto=format",
   },
