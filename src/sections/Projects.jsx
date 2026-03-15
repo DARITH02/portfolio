@@ -104,7 +104,7 @@ const Projects = () => {
                       </span>
                       Live Demo Front
                     </a>
-                    {project.admin != "" && 
+                    {project.admin != "" && (
                     <a
                       href={project.admin}
                       target="_blank"
@@ -115,7 +115,7 @@ const Projects = () => {
                         <FaExternalLinkAlt size={16} />
                       </span>
                       Live Demo Admin
-                    </a>
+                    </a>)
                     }
                   </div>
                   
