@@ -19,7 +19,7 @@ const projects = [
     tags: ["React", "Laravel", "MySQL", "REST API"],
     github: "https://github.com/DARITH02",
     demo: "#",
-    admin: "",
+    admin: "https://e-commence-p4.onrender.com",
     image:
       "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=700&h=420&fit=crop&auto=format",
   },
