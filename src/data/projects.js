@@ -7,7 +7,7 @@ const projects = [
     tags: ["React", "ASP.NET", "SQL Server", "REST API"],
     github: "https://github.com/DARITH02",
     demo: "#",
-    admin: "",
+    admin: "#",
     image:
       "https://images.unsplash.com/photo-1503676260728-1c00da094a0b?w=700&h=420&fit=crop&auto=format",
   },
@@ -18,7 +18,7 @@ const projects = [
       "A modern e-commerce platform that allows users to browse products, add items to cart, and complete purchases online.",
     tags: ["React", "Laravel", "MySQL", "REST API"],
     github: "https://github.com/DARITH02",
-    demo: "#",
+    demo: "https://lumina-roan-rho.vercel.app/en",
     admin: "https://e-commence-p4.onrender.com",
     image:
       "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=700&h=420&fit=crop&auto=format",
