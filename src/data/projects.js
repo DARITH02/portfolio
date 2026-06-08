@@ -5,7 +5,7 @@ const projects = [
     description:
       "A comprehensive platform featuring student management, class scheduling, and teacher management capabilities.",
     tags: ["React", "ASP.NET", "SQL Server", "REST API"],
-    github: "https://github.com/DARITH02",
+    github: "https://github.com/DARITH02/schoom-management-system-asp-one.git",
     demo: "#",
     admin: "#",
     image:
