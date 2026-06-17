@@ -1,4 +1,17 @@
+import Img1 from "../assets/Screenshot 2026-06-17 110110.png"
 const projects = [
+    {
+    id: 10,
+  title: "Attendance Management System Version 2",
+  description:
+    "A comprehensive web-based attendance management platform designed to simplify student administration, class scheduling, attendance tracking, and teacher management. The system helps educational institutions organize academic records, monitor student participation, manage class information, and support teachers with an efficient, centralized workflow."
+,
+    tags: ["React", "Laravel", "MYSQL", "REST API", "Docker", "Redis"],
+    github: "https://github.com/DARITH02/schoom-management-system-asp-one.git",
+    demo: "https://hru-ats-v2.onrender.com",
+    admin: "https://hru-ats-v2.onrender.com",
+    image:Img1,
+  },
   {
     id: 1,
     title: "School Management System",
