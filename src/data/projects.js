@@ -12,6 +12,30 @@ const projects = [
     admin: "https://hru-ats-v2.onrender.com",
     image:Img1,
   },
+      {
+    id: 6,
+    title: "Hotel Management System",
+    description:
+      "A hotel platform handling room bookings, customer management, invoices, and admin dashboard.",
+    tags: ["PHP", "MySQL", "Bootstrap", "JavaScript"],
+    github: "https://github.com/DARITH02",
+    demo: "https://kea-thavy.42web.io",
+    admin: "https://kea-thavy.42web.io/dashboard",
+    image:
+      "https://images.unsplash.com/photo-1566073771259-6a8506099945?w=700&h=420&fit=crop&auto=format",
+  },
+  {
+    id: 7,
+    title: "Aura Hotel Management System",
+    description:
+      "A full-stack hotel booking system where customers can browse rooms and make reservations while administrators manage bookings, rooms, and payments through a dashboard with Telegram notifications.",
+    tags: ["PHP", "MySQL", "Bootstrap", "JavaScript", "Telegram Bot"],
+    github: "https://github.com/DARITH02",
+    demo: "http://rura-hotel.gt.tc",
+    admin: "http://rura-hotel.gt.tc/public/dashboard",
+    image:
+      "https://i.pinimg.com/1200x/c0/38/af/c038af52d38d20e9422ffaa8a4981c42.jpg",
+  },
   {
     id: 1,
     title: "School Management System",
@@ -72,30 +96,7 @@ const projects = [
     image:
       "https://images.unsplash.com/photo-1618477388954-7852f32655ec?w=700&h=420&fit=crop&auto=format",
   },
-  {
-    id: 6,
-    title: "Hotel Management System",
-    description:
-      "A hotel platform handling room bookings, customer management, invoices, and admin dashboard.",
-    tags: ["PHP", "MySQL", "Bootstrap", "JavaScript"],
-    github: "https://github.com/DARITH02",
-    demo: "https://kea-thavy.42web.io",
-    admin: "https://kea-thavy.42web.io/dashboard",
-    image:
-      "https://images.unsplash.com/photo-1566073771259-6a8506099945?w=700&h=420&fit=crop&auto=format",
-  },
-  {
-    id: 7,
-    title: "Aura Hotel Management System",
-    description:
-      "A full-stack hotel booking system where customers can browse rooms and make reservations while administrators manage bookings, rooms, and payments through a dashboard with Telegram notifications.",
-    tags: ["PHP", "MySQL", "Bootstrap", "JavaScript", "Telegram Bot"],
-    github: "https://github.com/DARITH02",
-    demo: "http://rura-hotel.gt.tc",
-    admin: "http://rura-hotel.gt.tc/public/dashboard",
-    image:
-      "https://i.pinimg.com/1200x/c0/38/af/c038af52d38d20e9422ffaa8a4981c42.jpg",
-  },
+
 ];
 
 export default projects;
