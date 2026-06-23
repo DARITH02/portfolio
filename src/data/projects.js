@@ -11,6 +11,17 @@ const projects = [
     demo: "https://hru-ats-v2.onrender.com",
     admin: "https://hru-ats-v2.onrender.com",
     image:Img1,
+  }, {
+    id: 10,
+  title: "Attendance Management System Version 2 Front end VueJs",
+  description:
+    "A comprehensive web-based attendance management platform designed to simplify student administration, class scheduling, attendance tracking, and teacher management. The system helps educational institutions organize academic records, monitor student participation, manage class information, and support teachers with an efficient, centralized workflow."
+,
+    tags: ["React", "Laravel", "MYSQL", "Vue Js", "Docker", "Redis"],
+    github: "https://github.com/DARITH02/schoom-management-system-asp-one.git",
+    demo: "https://atms-front-vue-2.vercel.app/",
+    admin: "https://hru-ats-v2.onrender.com",
+    image:Img1,
   },
       {
     id: 6,
