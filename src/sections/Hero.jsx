@@ -147,7 +147,7 @@ const Hero = () => (
             </div>
 
             {/* Floating Badges */}
-            {/* React Badge */}
+            {/* React Badge - Top Left */}
             <motion.div
               animate={{ y: [-8, 8, -8], x: [-4, 4, -4] }}
               transition={{ duration: 6, repeat: Infinity, ease: "easeInOut" }}
@@ -161,7 +161,35 @@ const Hero = () => (
               </span>
             </motion.div>
 
-            {/* .NET Core Badge */}
+            {/* Angular Badge - Middle Left */}
+            <motion.div
+              animate={{ y: [6, -6, 6], x: [-3, 3, -3] }}
+              transition={{ duration: 5.2, repeat: Infinity, ease: "easeInOut", delay: 0.5 }}
+              className="absolute -left-20 top-36 px-4 py-3 rounded-2xl glass border border-white/10 shadow-xl flex items-center gap-3 z-20 pointer-events-auto"
+            >
+              <span className="w-8 h-8 rounded-full bg-red-500/10 text-red-500 flex items-center justify-center font-bold text-lg border border-red-500/20">
+                <SiAngular />
+              </span>
+              <span className="text-sm font-semibold text-gray-200">
+                Angular
+              </span>
+            </motion.div>
+
+            {/* Vue.js Badge - Bottom Left */}
+            <motion.div
+              animate={{ y: [-10, 10, -10], x: [3, -3, 3] }}
+              transition={{ duration: 6.5, repeat: Infinity, ease: "easeInOut", delay: 1 }}
+              className="absolute -left-10 bottom-16 px-4 py-3 rounded-2xl glass border border-white/10 shadow-xl flex items-center gap-3 z-20 pointer-events-auto"
+            >
+              <span className="w-8 h-8 rounded-full bg-teal-500/10 text-teal-400 flex items-center justify-center font-bold text-lg border border-teal-500/20">
+                <SiVuedotjs />
+              </span>
+              <span className="text-sm font-semibold text-gray-200">
+                Vue.js
+              </span>
+            </motion.div>
+
+            {/* .NET Core Badge - Top Right */}
             <motion.div
               animate={{ y: [8, -8, 8], x: [4, -4, 4] }}
               transition={{ duration: 5, repeat: Infinity, ease: "easeInOut" }}
@@ -175,11 +203,11 @@ const Hero = () => (
               </span>
             </motion.div>
 
-            {/* Node.js Badge */}
+            {/* Node.js Badge - Middle Right */}
             <motion.div
-              animate={{ y: [-10, 10, -10], x: [3, -3, 3] }}
-              transition={{ duration: 5.5, repeat: Infinity, ease: "easeInOut" }}
-              className="absolute -left-10 bottom-16 px-4 py-3 rounded-2xl glass border border-white/10 shadow-xl flex items-center gap-3 z-20 pointer-events-auto"
+              animate={{ y: [-8, 8, -8], x: [-3, 3, -3] }}
+              transition={{ duration: 5.8, repeat: Infinity, ease: "easeInOut", delay: 0.3 }}
+              className="absolute -right-20 top-44 px-4 py-3 rounded-2xl glass border border-white/10 shadow-xl flex items-center gap-3 z-20 pointer-events-auto"
             >
               <span className="w-8 h-8 rounded-full bg-emerald-500/10 text-emerald-400 flex items-center justify-center font-bold text-lg border border-emerald-500/20">
                 <SiNodedotjs />
@@ -189,10 +217,10 @@ const Hero = () => (
               </span>
             </motion.div>
 
-            {/* Laravel Badge */}
+            {/* Laravel Badge - Bottom Right */}
             <motion.div
               animate={{ y: [10, -10, 10], x: [-3, 3, -3] }}
-              transition={{ duration: 6.5, repeat: Infinity, ease: "easeInOut" }}
+              transition={{ duration: 6.2, repeat: Infinity, ease: "easeInOut", delay: 0.8 }}
               className="absolute -right-8 bottom-24 px-4 py-3 rounded-2xl glass border border-white/10 shadow-xl flex items-center gap-3 z-20 pointer-events-auto"
             >
               <span className="w-8 h-8 rounded-full bg-red-500/10 text-red-400 flex items-center justify-center font-bold text-lg border border-red-500/20">
