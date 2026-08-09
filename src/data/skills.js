@@ -21,6 +21,7 @@ import {
   SiTailwindcss,
   SiExpress,
   SiTypescript,
+  SiAngular,
 } from "react-icons/si";
 
 /*
@@ -52,6 +53,7 @@ const skills = [
       { name: "JavaScript",     icon: FaJs        },
       { name: "TypeScript",     icon: SiTypescript},
       { name: "React",          icon: FaReact     },
+      { name: "Angular",        icon: SiAngular   },
       { name: "Vue.js",         icon: FaVuejs     },
       { name: "Bootstrap",      icon: FaBootstrap },
       { name: "Tailwind CSS",   icon: SiTailwindcss },

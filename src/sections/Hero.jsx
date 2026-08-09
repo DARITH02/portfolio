@@ -3,7 +3,8 @@
  */
 import React from "react";
 import { motion } from "framer-motion";
-import { FaGithub, FaLinkedin, FaFacebook, FaArrowDown, FaTelegram } from "react-icons/fa";
+import { FaGithub, FaLinkedin, FaFacebook, FaArrowDown, FaTelegram, FaReact, FaLaravel } from "react-icons/fa";
+import { SiAngular, SiDotnet, SiVuedotjs, SiNodedotjs } from "react-icons/si";
 import avatar from "../assets/avatar.jpg";
 
 const SOCIALS = [
@@ -59,8 +60,7 @@ const Hero = () => (
             className="max-w-xl mx-auto lg:mx-0 text-gray-300 text-lg sm:text-xl font-light leading-relaxed mb-10"
           >
             I'm a Junior Software Developer specializing in crafting modern,
-            high-performance web applications with striking aesthetics and
-            robust architectures.
+            high-performance web applications using <span className="text-white font-medium">.NET Core</span>, <span className="text-white font-medium">React</span>, <span className="text-white font-medium">Node.js</span>, and <span className="text-white font-medium">Laravel</span>.
           </motion.p>
 
           {/* CTA buttons */}
@@ -86,6 +86,37 @@ const Hero = () => (
                 >
                   <Icon />
                 </a>
+              ))}
+            </div>
+          </motion.div>
+
+          {/* Tech Stack Row */}
+          <motion.div
+            {...fadeUp(0.5)}
+            className="mt-12 flex flex-wrap items-center justify-center lg:justify-start gap-4 border-t border-white/5 pt-8"
+          >
+            <span className="text-xs font-bold tracking-widest text-gray-500 uppercase">
+              Tech Stack
+            </span>
+            <div className="h-4 w-px bg-white/10 hidden sm:block" />
+            <div className="flex flex-wrap items-center gap-3">
+              {[
+                { Icon: SiDotnet, name: ".NET Core" },
+                { Icon: FaReact, name: "React" },
+                { Icon: SiAngular, name: "Angular" },
+                { Icon: SiVuedotjs, name: "Vue" },
+                { Icon: SiNodedotjs, name: "Node.js" },
+                { Icon: FaLaravel, name: "Laravel" },
+              ].map(({ Icon, name }) => (
+                <div
+                  key={name}
+                  className="flex items-center gap-1.5 px-3 py-1.5 rounded-lg bg-white/[0.02] border border-white/5 hover:border-primary-500/35 transition-colors group cursor-default"
+                >
+                  <Icon className="text-gray-400 group-hover:text-white transition-colors" size={14} />
+                  <span className="text-xs font-semibold text-gray-400 group-hover:text-white transition-colors">
+                    {name}
+                  </span>
+                </div>
               ))}
             </div>
           </motion.div>
@@ -116,26 +147,56 @@ const Hero = () => (
             </div>
 
             {/* Floating Badges */}
+            {/* React Badge */}
             <motion.div
-              animate={{ y: [-10, 10, -10] }}
-              transition={{ duration: 5, repeat: Infinity, ease: "easeInOut" }}
-              className="absolute -left-8 top-12 px-4 py-3 rounded-2xl glass border border-white/10 shadow-xl flex items-center gap-3"
+              animate={{ y: [-8, 8, -8], x: [-4, 4, -4] }}
+              transition={{ duration: 6, repeat: Infinity, ease: "easeInOut" }}
+              className="absolute -left-12 top-6 px-4 py-3 rounded-2xl glass border border-white/10 shadow-xl flex items-center gap-3 z-20 pointer-events-auto"
             >
-              <span className="w-8 h-8 rounded-full bg-blue-500/20 text-blue-400 flex items-center justify-center font-bold font-mono">
-                Re
+              <span className="w-8 h-8 rounded-full bg-blue-500/10 text-blue-400 flex items-center justify-center font-bold text-lg border border-blue-500/20">
+                <FaReact />
               </span>
               <span className="text-sm font-semibold text-gray-200">
                 React.js
               </span>
             </motion.div>
 
+            {/* .NET Core Badge */}
             <motion.div
-              animate={{ y: [10, -10, 10] }}
-              transition={{ duration: 6, repeat: Infinity, ease: "easeInOut" }}
-              className="absolute -right-6 bottom-20 px-4 py-3 rounded-2xl glass border border-white/10 shadow-xl flex items-center gap-3"
+              animate={{ y: [8, -8, 8], x: [4, -4, 4] }}
+              transition={{ duration: 5, repeat: Infinity, ease: "easeInOut" }}
+              className="absolute -right-10 top-16 px-4 py-3 rounded-2xl glass border border-white/10 shadow-xl flex items-center gap-3 z-20 pointer-events-auto"
             >
-              <span className="w-8 h-8 rounded-full bg-red-500/20 text-red-400 flex items-center justify-center font-bold font-mono">
-                La
+              <span className="w-8 h-8 rounded-full bg-indigo-500/10 text-indigo-400 flex items-center justify-center font-bold text-lg border border-indigo-500/20">
+                <SiDotnet />
+              </span>
+              <span className="text-sm font-semibold text-gray-200">
+                .NET Core
+              </span>
+            </motion.div>
+
+            {/* Node.js Badge */}
+            <motion.div
+              animate={{ y: [-10, 10, -10], x: [3, -3, 3] }}
+              transition={{ duration: 5.5, repeat: Infinity, ease: "easeInOut" }}
+              className="absolute -left-10 bottom-16 px-4 py-3 rounded-2xl glass border border-white/10 shadow-xl flex items-center gap-3 z-20 pointer-events-auto"
+            >
+              <span className="w-8 h-8 rounded-full bg-emerald-500/10 text-emerald-400 flex items-center justify-center font-bold text-lg border border-emerald-500/20">
+                <SiNodedotjs />
+              </span>
+              <span className="text-sm font-semibold text-gray-200">
+                Node.js
+              </span>
+            </motion.div>
+
+            {/* Laravel Badge */}
+            <motion.div
+              animate={{ y: [10, -10, 10], x: [-3, 3, -3] }}
+              transition={{ duration: 6.5, repeat: Infinity, ease: "easeInOut" }}
+              className="absolute -right-8 bottom-24 px-4 py-3 rounded-2xl glass border border-white/10 shadow-xl flex items-center gap-3 z-20 pointer-events-auto"
+            >
+              <span className="w-8 h-8 rounded-full bg-red-500/10 text-red-400 flex items-center justify-center font-bold text-lg border border-red-500/20">
+                <FaLaravel />
               </span>
               <span className="text-sm font-semibold text-gray-200">
                 Laravel
