@@ -1,6 +1,16 @@
 import Img1 from "../assets/Screenshot 2026-06-17 110110.png"
 const projects = [
     {
+  id: 1,
+  role: "Junior Full-Stack Web Developer",
+  company: "CORARL Co., Ltd. — CORARL HR",
+  period: "2026 – Present",
+  employmentType: "Full-time",
+  description:
+    "Contribute to the development and maintenance of an enterprise HR management system using C#, ASP.NET MVC, AngularJS, ABP Framework, Entity Framework, and database technologies. Develop and enhance HR modules, including Employee Asset Maintenance, KPI Library, and Goal Library. Implement backend application services, frontend functionality, database operations, and permission-based access control. Troubleshoot application issues and maintain reliable business workflows.",
+  isCurrent: true,
+},
+    {
     id: 10,
   title: "Attendance Management System Version 2",
   description:
@@ -107,6 +117,30 @@ const projects = [
     image:
       "https://images.unsplash.com/photo-1618477388954-7852f32655ec?w=700&h=420&fit=crop&auto=format",
   },
+    {
+  id: 12,
+  title: "University Management System (UMS)",
+  description:
+    "A multi-tenant University Management System designed to support multiple universities through a modular architecture. The project focuses on tenant management, authentication, users, roles, permissions, feature management, and integration between .NET and Laravel services. Built with a focus on scalability, maintainability, and secure tenant data isolation.",
+  tags: [
+    ".NET 10",
+    "ASP.NET Core",
+    "C#",
+    "PostgreSQL",
+    "Entity Framework Core",
+    "Angular",
+    "Laravel",
+    "Multi-Tenancy",
+    "Clean Architecture"
+  ],
+  github: null,
+  demo: null,
+  admin: null,
+  image:
+    "https://images.unsplash.com/photo-1562774053-701939374585?w=700&h=420&fit=crop&auto=format",
+  status: "In Development"
+},
+    
 
 ];
 
