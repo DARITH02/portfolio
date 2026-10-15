@@ -13,18 +13,18 @@ import {
   FaNodeJs,
   FaVuejs,
 } from "react-icons/fa";
+
 import {
   SiDotnet,
   SiSharp,
   SiMysql,
-  SiPostgresql,
   SiVscodium,
   SiTailwindcss,
   SiExpress,
   SiTypescript,
   SiAngular,
-  SiRedis,
 } from "react-icons/si";
+
 
 import {
   FaDatabase,
@@ -61,16 +61,18 @@ const skills = [
       { name: "Tailwind CSS", icon: SiTailwindcss },
     ],
   },
-  {
-    category: "Database & Caching",
-    accent: "emerald",
-    items: [
-      { name: "MySQL", icon: SiMysql },
-      { name: "SQL Server", icon: SiMicrosoftsqlserver },
-      { name: "PostgreSQL", icon: SiPostgresql },
-      { name: "Redis", icon: SiRedis },
-    ],
-  },
+ 
+{
+  category: "Database & Caching",
+  accent: "emerald",
+  items: [
+    { name: "MySQL", icon: SiMysql },
+    { name: "SQL Server", icon: FaDatabase },
+    { name: "PostgreSQL", icon: FaDatabase },
+    { name: "Redis", icon: FaDatabase },
+  ],
+},
+
   {
     category: "Tools & Development",
     accent: "orange",
