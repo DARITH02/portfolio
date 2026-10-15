@@ -13,7 +13,6 @@ import {
   FaNodeJs,
   FaVuejs,
 } from "react-icons/fa";
-
 import {
   SiDotnet,
   SiSharp,
@@ -25,8 +24,11 @@ import {
   SiTypescript,
   SiAngular,
   SiRedis,
-  SiMicrosoftsqlserver,
 } from "react-icons/si";
+
+import {
+  FaDatabase,
+} from "react-icons/fa";
 
 const skills = [
   {
