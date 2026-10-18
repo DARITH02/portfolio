@@ -1,39 +1,40 @@
 import Img1 from "../assets/Screenshot 2026-06-17 110110.png"
 const projects = [
-    {
-  id: 1,
-  role: "Junior Full-Stack Web Developer",
-  company: "CORARL Co., Ltd. — CORARL HR",
-  period: "2026 – Present",
-  employmentType: "Full-time",
-  description:
-    "Contribute to the development and maintenance of an enterprise HR management system using C#, ASP.NET MVC, AngularJS, ABP Framework, Entity Framework, and database technologies. Develop and enhance HR modules, including Employee Asset Maintenance, KPI Library, and Goal Library. Implement backend application services, frontend functionality, database operations, and permission-based access control. Troubleshoot application issues and maintain reliable business workflows.",
-  isCurrent: true,
-},
-    {
-    id: 10,
-  title: "Attendance Management System Version 2",
-  description:
-    "A comprehensive web-based attendance management platform designed to simplify student administration, class scheduling, attendance tracking, and teacher management. The system helps educational institutions organize academic records, monitor student participation, manage class information, and support teachers with an efficient, centralized workflow."
-,
+  {
+    id: 1,
+    title: "Junior Full-Stack Web Developer",
+    description:
+      "Contribute to the development and maintenance of an enterprise HR management system using C#, ASP.NET Core, ABP Framework, Entity Framework, and database technologies. Develop and enhance HR modules, including Employee Asset Maintenance, KPI Library, and Goal Library. Implement backend application services, frontend functionality, database operations, and permission-based access control. Troubleshoot application issues and maintain reliable business workflows.",
+    tags: ["C#", "ASP.NET Core 6", "ABP Framework", "Entity Framework", "Database technologies", "PostgreSQL", "AngularJS", "JWT"],
+    github: "#",
+    demo: "#",
+    admin: "#",
+    image: Img1,
+  },
+  {
+    id: 2,
+    title: "Attendance Management System Version 2",
+    description:
+      "A comprehensive web-based attendance management platform designed to simplify student administration, class scheduling, attendance tracking, and teacher management. The system helps educational institutions organize academic records, monitor student participation, manage class information, and support teachers with an efficient, centralized workflow."
+    ,
     tags: ["React", "Laravel", "MYSQL", "REST API", "Docker", "Redis"],
     github: "https://github.com/DARITH02/schoom-management-system-asp-one.git",
     demo: "https://hru-ats-v2.onrender.com",
     admin: "https://hru-ats-v2.onrender.com",
-    image:Img1,
+    image: Img1,
   }, {
     id: 10,
-  title: "Attendance Management System Version 2 Front end VueJs",
-  description:
-    "A comprehensive web-based attendance management platform designed to simplify student administration, class scheduling, attendance tracking, and teacher management. The system helps educational institutions organize academic records, monitor student participation, manage class information, and support teachers with an efficient, centralized workflow."
-,
+    title: "Attendance Management System Version 2 Front end VueJs",
+    description:
+      "A comprehensive web-based attendance management platform designed to simplify student administration, class scheduling, attendance tracking, and teacher management. The system helps educational institutions organize academic records, monitor student participation, manage class information, and support teachers with an efficient, centralized workflow."
+    ,
     tags: ["React", "Laravel", "MYSQL", "Vue Js", "Docker", "Redis"],
     github: "https://github.com/DARITH02/schoom-management-system-asp-one.git",
     demo: "https://atms-front-vue-2.vercel.app/",
     admin: "https://hru-ats-v2.onrender.com",
-    image:Img1,
+    image: Img1,
   },
-      {
+  {
     id: 6,
     title: "Hotel Management System",
     description:
@@ -70,7 +71,7 @@ const projects = [
       "https://images.unsplash.com/photo-1503676260728-1c00da094a0b?w=700&h=420&fit=crop&auto=format",
   },
   {
-    id: 2,
+    id: 8,
     title: "E-Commerce Web Application",
     description:
       "A modern e-commerce platform that allows users to browse products, add items to cart, and complete purchases online.",
@@ -117,30 +118,30 @@ const projects = [
     image:
       "https://images.unsplash.com/photo-1618477388954-7852f32655ec?w=700&h=420&fit=crop&auto=format",
   },
-    {
-  id: 12,
-  title: "University Management System (UMS)",
-  description:
-    "A multi-tenant University Management System designed to support multiple universities through a modular architecture. The project focuses on tenant management, authentication, users, roles, permissions, feature management, and integration between .NET and Laravel services. Built with a focus on scalability, maintainability, and secure tenant data isolation.",
-  tags: [
-    ".NET 10",
-    "ASP.NET Core",
-    "C#",
-    "PostgreSQL",
-    "Entity Framework Core",
-    "Angular",
-    "Laravel",
-    "Multi-Tenancy",
-    "Clean Architecture"
-  ],
-  github: null,
-  demo: null,
-  admin: null,
-  image:
-    "https://images.unsplash.com/photo-1562774053-701939374585?w=700&h=420&fit=crop&auto=format",
-  status: "In Development"
-},
-    
+  {
+    id: 12,
+    title: "University Management System (UMS)",
+    description:
+      "A multi-tenant University Management System designed to support multiple universities through a modular architecture. The project focuses on tenant management, authentication, users, roles, permissions, feature management, and integration between .NET and Laravel services. Built with a focus on scalability, maintainability, and secure tenant data isolation.",
+    tags: [
+      ".NET 10",
+      "ASP.NET Core",
+      "C#",
+      "PostgreSQL",
+      "Entity Framework Core",
+      "Angular",
+      "Laravel",
+      "Multi-Tenancy",
+      "Clean Architecture"
+    ],
+    github: null,
+    demo: null,
+    admin: null,
+    image:
+      "https://images.unsplash.com/photo-1562774053-701939374585?w=700&h=420&fit=crop&auto=format",
+    status: "In Development"
+  },
+
 
 ];
 

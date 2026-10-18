@@ -3,17 +3,17 @@ import { motion, AnimatePresence } from "framer-motion";
 import { HiMenuAlt3, HiX } from "react-icons/hi";
 
 const NAV_LINKS = [
-  { label: "Home",      href: "#home"      },
-  { label: "About",     href: "#about"     },
-  { label: "Skills",    href: "#skills"    },
-  { label: "Experience",href: "#experience"},
-  { label: "Projects",  href: "#projects"  },
+  { label: "Home", href: "#home" },
+  { label: "About", href: "#about" },
+  { label: "Skills", href: "#skills" },
+  { label: "Experience", href: "#experience" },
+  { label: "Projects", href: "#projects" },
   { label: "Education", href: "#education" },
-  { label: "Contact",   href: "#contact"   },
+  { label: "Contact", href: "#contact" },
 ];
 
 const Navbar = () => {
-  const [open,     setOpen]     = useState(false);
+  const [open, setOpen] = useState(false);
   const [scrolled, setScrolled] = useState(false);
 
   useEffect(() => {
@@ -25,11 +25,10 @@ const Navbar = () => {
   return (
     <nav className="fixed top-0 w-full z-50 flex justify-center pt-4 lg:pt-6 px-4 pointer-events-none">
       <div
-        className={`pointer-events-auto transition-all duration-500 rounded-full flex items-center justify-between px-5 sm:px-8 py-3 ${
-          scrolled
+        className={`pointer-events-auto transition-all duration-500 rounded-full flex items-center justify-between px-5 sm:px-8 py-3 ${scrolled
             ? "glass border border-white/[0.08] shadow-2xl shadow-black/40 w-full max-w-6xl bg-[#0a0a0a]/70 backdrop-blur-md"
             : "w-full max-w-7xl bg-transparent"
-        }`}
+          }`}
       >
 
         {/* Logo */}
@@ -39,7 +38,7 @@ const Navbar = () => {
           animate={{ opacity: 1, x: 0 }}
           className="text-xl sm:text-2xl font-black gradient-text tracking-tight select-none"
         >
-          Ven Chandarith
+          VEN Chandarith
         </motion.a>
 
         {/* Desktop links - shown on lg and above since 7 links might overflow on md */}

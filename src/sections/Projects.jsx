@@ -56,7 +56,7 @@ const Projects = () => {
 
                 {/* Content Side */}
                 <div className={`w-full lg:w-[45%] flex flex-col ${isReverse ? 'lg:text-right lg:items-end' : 'lg:text-left lg:items-start'}`}>
-                  <p className="text-primary-400 font-bold uppercase tracking-widest text-sm mb-4">Project {`0${project.id}`}</p>
+                  <p className="text-primary-400 font-bold uppercase tracking-widest text-sm mb-4">Project {String(index + 1).padStart(2, '0')}</p>
                   <h3 className="text-3xl md:text-4xl font-extrabold text-white mb-6 group-hover:text-transparent group-hover:bg-clip-text group-hover:bg-gradient-to-r group-hover:from-white group-hover:to-gray-400 transition-all duration-300">
                     {project.title}
                   </h3>
@@ -69,54 +69,60 @@ const Projects = () => {
                   </div>
 
                   {/* Tags */}
-                  <div className={`flex flex-wrap gap-2 mb-8 ${isReverse ? 'justify-end' : 'justify-start'}`}>
-                    {project.tags.map((tag) => (
-                      <span
-                        key={tag}
-                        className="px-4 py-1.5 rounded-full bg-white/5 text-gray-300 text-sm font-semibold border border-white/10 hover:border-primary-500/30 hover:text-white transition-colors"
-                      >
-                        {tag}
-                      </span>
-                    ))}
-                  </div>
+                  {project.tags && project.tags.length > 0 && (
+                    <div className={`flex flex-wrap gap-2 mb-8 ${isReverse ? 'justify-end' : 'justify-start'}`}>
+                      {project.tags.map((tag) => (
+                        <span
+                          key={tag}
+                          className="px-4 py-1.5 rounded-full bg-white/5 text-gray-300 text-sm font-semibold border border-white/10 hover:border-primary-500/30 hover:text-white transition-colors"
+                        >
+                          {tag}
+                        </span>
+                      ))}
+                    </div>
+                  )}
 
                   {/* Links */}
-                  <div className="flex items-center gap-6">
-                    <a
-                      href={project.github}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="flex items-center gap-2 text-sm font-bold text-gray-400 hover:text-white transition-colors group/link"
-                    >
-                      <span className="w-12 h-12 rounded-full glass border border-white/5 flex items-center justify-center group-hover/link:bg-white/10 transition-all group-hover/link:scale-110">
-                        <FaGithub size={20} />
-                      </span>
-                      Source Code
-                    </a>
-                    <a
-                      href={project.demo}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="flex items-center gap-2 text-sm font-bold text-primary-400 hover:text-primary-300 transition-colors group/link"
-                    >
-                      <span className="w-12 h-12 rounded-full glass border border-primary-500/20 flex items-center justify-center group-hover/link:bg-primary-500/10 transition-all group-hover/link:scale-110">
-                        <FaExternalLinkAlt size={16} />
-                      </span>
-                      Live Demo Front
-                    </a>
-                    {project.admin != "" && (
-                    <a
-                      href={project.admin}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="flex items-center gap-2 text-sm font-bold text-primary-400 hover:text-primary-300 transition-colors group/link"
-                    >
-                      <span className="w-12 h-12 rounded-full glass border border-primary-500/20 flex items-center justify-center group-hover/link:bg-primary-500/10 transition-all group-hover/link:scale-110">
-                        <FaExternalLinkAlt size={16} />
-                      </span>
-                      Live Demo Admin
-                    </a>)
-                    }
+                  <div className="flex flex-wrap items-center gap-6">
+                    {project.github && (
+                      <a
+                        href={project.github}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="flex items-center gap-2 text-sm font-bold text-gray-400 hover:text-white transition-colors group/link"
+                      >
+                        <span className="w-12 h-12 rounded-full glass border border-white/5 flex items-center justify-center group-hover/link:bg-white/10 transition-all group-hover/link:scale-110">
+                          <FaGithub size={20} />
+                        </span>
+                        Source Code
+                      </a>
+                    )}
+                    {project.demo && project.demo !== "" && (
+                      <a
+                        href={project.demo}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="flex items-center gap-2 text-sm font-bold text-primary-400 hover:text-primary-300 transition-colors group/link"
+                      >
+                        <span className="w-12 h-12 rounded-full glass border border-primary-500/20 flex items-center justify-center group-hover/link:bg-primary-500/10 transition-all group-hover/link:scale-110">
+                          <FaExternalLinkAlt size={16} />
+                        </span>
+                        Live Demo Front
+                      </a>
+                    )}
+                    {project.admin && project.admin !== "" && (
+                      <a
+                        href={project.admin}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="flex items-center gap-2 text-sm font-bold text-primary-400 hover:text-primary-300 transition-colors group/link"
+                      >
+                        <span className="w-12 h-12 rounded-full glass border border-primary-500/20 flex items-center justify-center group-hover/link:bg-primary-500/10 transition-all group-hover/link:scale-110">
+                          <FaExternalLinkAlt size={16} />
+                        </span>
+                        Live Demo Admin
+                      </a>
+                    )}
                   </div>
                   
                 </div>

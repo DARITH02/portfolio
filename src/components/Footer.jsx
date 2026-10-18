@@ -5,17 +5,17 @@ import React from "react";
 import { FaGithub, FaLinkedin, FaFacebook, FaArrowUp, FaTelegram } from "react-icons/fa";
 
 const SOCIALS = [
-   { Icon: FaGithub, href: "https://github.com/DARITH02", label: "GitHub" },
-   { Icon: FaTelegram, href: "https://t.me/darith_003", label: "Telegram" },
- 
-   {
-     Icon: FaFacebook,
-     href: "https://www.facebook.com/chan.darith.696422/",
-     label: "Facebook",
-   },
+  { Icon: FaGithub, href: "https://github.com/DARITH02", label: "GitHub" },
+  { Icon: FaTelegram, href: "https://t.me/darith_003", label: "Telegram" },
+
+  {
+    Icon: FaFacebook,
+    href: "https://www.facebook.com/chan.darith.696422/",
+    label: "Facebook",
+  },
 ];
 
-const NAV = ["Home","About","Skills","Projects","Education","Contact"];
+const NAV = ["Home", "About", "Skills", "Projects", "Education", "Contact"];
 
 const Footer = () => (
   <footer className="relative bg-dark-900 border-t border-white/[0.05] py-16 overflow-hidden">
@@ -30,7 +30,7 @@ const Footer = () => (
 
         {/* Brand */}
         <div className="text-center md:text-left">
-          <p className="text-2xl font-black gradient-text tracking-tight mb-2">Ven Chandarith</p>
+          <p className="text-2xl font-black gradient-text tracking-tight mb-2">VEN Chandarith</p>
           <p className="text-gray-500 text-sm font-light max-w-xs">
             Junior Software Developer based in Phnom Penh, Cambodia.
           </p>
@@ -80,7 +80,7 @@ const Footer = () => (
       {/* Copyright */}
       <p className="text-center text-gray-600 text-sm mt-8 font-light">
         © {new Date().getFullYear()}{" "}
-        <span className="text-gray-400 font-medium">Ven Chandarith</span>. All rights reserved.
+        <span className="text-gray-400 font-medium">VEN Chandarith</span>. All rights reserved.
       </p>
     </div>
   </footer>

@@ -26,10 +26,6 @@ import {
 } from "react-icons/si";
 
 
-import {
-  FaDatabase,
-} from "react-icons/fa";
-
 const skills = [
   {
     category: "Backend",
